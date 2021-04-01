@@ -28,21 +28,27 @@
 	<link rel="stylesheet" href="css/index.min.css">
 </head>
 <body>
-				<header class="header">
+				<header class="header d-flex align-items-center">
 				<div class="container">
 					<div class=" d-flex align-items-center justify-content-between">
 						<a class="header-logo d-flex align-items-center" href="#">
 							<img src="img/logo.png" alt="logo">
 							<div class="header-logo-text ml-2">tajam</div>
 						</a>
-						<div>
-							<a class="header-item ml-3" href="#">HOME</a>
-							<a class="header-item ml-3" href="#">ABOUT</a>
-							<a class="header-item ml-3" href="#">EXPERTISE</a>
-							<a class="header-item ml-3" href="#">TEAMS</a>
-							<a class="header-item ml-3" href="#">WORKS</a>
-							<a class="header-item ml-3" href="#">PEOPLE SAY</a>
-							<a class="header-item ml-3" href="#">CONTACT</a>
+						<div class="header-menu">
+							<a class="header-item ml-3" href="#home">HOME</a>
+							<a class="header-item ml-3" href="#about">ABOUT</a>
+							<a class="header-item ml-3" href="#expertise">EXPERTISE</a>
+							<a class="header-item ml-3" href="#teams">TEAMS</a>
+							<a class="header-item ml-3" href="#works">WORKS</a>
+							<a class="header-item ml-3" href="#people_say">PEOPLE SAY</a>
+							<a class="header-item ml-3" href="#contact">CONTACT</a>
+						</div>
+						<div class="burger">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
 						</div>
 					</div>
 				</div>
@@ -50,58 +56,379 @@
 
 
 	<main class="main">
-		<!--
-			<div class="main img_cover d-flex align-items-center" style="background-image: url(img/here.png);">
+					<!-- home -->
+			<div id="home" class="home  d-flex align-items-center" style="background-image: url(img/here.png);">
 				<div class="container mb-4">
 					<div class="owl-carousel owl-theme home_slider">
 						<div class="slider_item d-flex align-items-center justify-content-center flex-column">
-							<h1 class="main-title mb-4">We Are Awesome Creative Agency</h1>
+							<h1 class="home-title mb-4">We Are Awesome Creative Agency</h1>
 							<div class="line ml-auto mr-auto mb-4"></div>
-							<div class="main-text mb-4">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
-							<div class="main-btn d-flex justify-content-center align-items-center">
+							<div class="home-text mb-4">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
+							<div class="home-btn d-flex justify-content-center align-items-center">
 								<a class="" href="#">LEARN MORE</a>
 							</div>
 						</div>
 
 						<div class="slider_item d-flex align-items-center justify-content-center flex-column">
-							<h1 class="main-title mb-4">We Are Awesome Creative Agency</h1>
+							<h1 class="home-title mb-4">We Are Awesome Creative Agency</h1>
 							<div class="line ml-auto mr-auto mb-4"></div>
-							<div class="main-text mb-4">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
-							<div class="main-btn d-flex justify-content-center align-items-center">
+							<div class="home-text mb-4">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
+							<div class="home-btn d-flex justify-content-center align-items-center">
 								<a class="" href="#">LEARN MORE</a>
 							</div>
 						</div>
 
 						<div class="slider_item d-flex align-items-center justify-content-center flex-column">
-							<h1 class="main-title mb-4">We Are Awesome Creative Agency</h1>
+							<h1 class="home-title mb-4">We Are Awesome Creative Agency</h1>
 							<div class="line ml-auto mr-auto mb-4"></div>
-							<div class="main-text mb-4">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
-							<div class="main-btn d-flex justify-content-center align-items-center">
+							<div class="home-text mb-4">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
+							<div class="home-btn d-flex justify-content-center align-items-center">
 								<a class="" href="#">LEARN MORE</a>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
+			<!-- OUR STORY -->
+			<div id="about" class="container pb-5 pt-5">
+				<div class="row">
+					<div class="col-md-6 d-flex justify-content-center">
+						<div class="story-img">
+							<img src="img/our_story.png" alt="img">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h2 class="story-title">OUR STORY</h2>
+						<div class="story-text">
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+							<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+						</div>
+						<div class=" d-flex">
+							<a class="story-btn d-flex justify-content-center align-items-center" href="#">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- watch video -->
+			<div class="watch-video  d-flex align-items-center justify-content-center" style="background-image: url(img/watch_our_st.png);">
+				<div class="top_section_video">
+					<video class="top_video"loop playsinline ="img/watch_our_st.png">
+						<source src="img/video_sample.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="container">
+					<div class="watch-video-content d-flex flex-column align-items-center">
+						<i class="play d-flex align-items-center justify-content-center mb-3 fas fa-play-circle"></i>
+						<h2 class="watch-video-title">WATCH OUR STORY</h2>
+					</div>
+				</div>
+			</div>
+			<!-- EXPERTISE -->
+			<div id="expertise" class="container pt-5 pb-5">
+				<h2 class="epertise-title">EXPERTISE</h2>
+				<div class="epertise-text mb-3">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+				<div class="line ml-auto mr-auto mb-4"></div>
+				<div class="epertise-block d-flex flex-wrap">
+					<div class="epertise-block-content p-3">
+						<div class="epertise-content d-flex flex-column justify-content-center align-items-center">
+							<i class="epertise-icon mb-4 fas fa-desktop"></i>
+							<b class="epertise-content-title mb-2">WEB DESIGN & DEVELOPMENT</b>
+							<div class="epertise-content-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div>
+						</div>
+					</div>
+					<div class="epertise-block-content p-3">
+						<div class="epertise-content d-flex flex-column justify-content-center align-items-center">
+							<i class="epertise-icon mb-4 fas fa-paint-brush"></i>
+							<b class="epertise-content-title mb-2">BRANDING IDENTITY</b>
+							<div class="epertise-content-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div>
+						</div>
+					</div>
+					<div class="epertise-block-content p-3">
+						<div class="epertise-content d-flex flex-column justify-content-center align-items-center">
+							<i class="epertise-icon mb-4 fas fa-mobile-alt"></i>
+							<b class="epertise-content-title mb-2">MOBILE APP</b>
+							<div class="epertise-content-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div>
+						</div>
+					</div>
+					<div class="epertise-block-content p-3">
+						<div class="epertise-content d-flex flex-column justify-content-center align-items-center">
+							<i class="epertise-icon mb-4 fab fa-empire"></i>
+							<b class="epertise-content-title mb-2">SEARCH ENGINE OPTIMIZATION</b>
+							<div class="epertise-content-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div>
+						</div>
+					</div>
+					<div class="epertise-block-content p-3">
+						<div class="epertise-content d-flex flex-column justify-content-center align-items-center">
+							<i class="epertise-icon mb-4 fas fa-gamepad"></i>
+							<b class="epertise-content-title mb-2">GAME DEVELOPMENT</b>
+							<div class="epertise-content-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div>
+						</div>
+					</div>
+					<div class="epertise-block-content p-3">
+						<div class="epertise-content d-flex flex-column justify-content-center align-items-center">
+							<i class="epertise-icon mb-4 far fa-heart"></i>
+							<b class="epertise-content-title mb-2">MADE WITH LOVE</b>
+							<div class="epertise-content-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- TEAM -->
+			<div id="teams" class="team pt-5 pb-5" style="background-image: url(img/team_bg.png);">
+				<div class="container">
+					<div class="team-content">
+						<h2 class="team-title mb-2">MEET OUR AMAZING TEAM</h2>
+						<div class="team-text mb-3">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+						<div class="line ml-auto mr-auto mb-5"></div>
+						<div class="row mb-5">
+							<div class="col-md-3">
+								<div class="mb-4 mb-md-0">
+									<div class="team-img">
+										<img src="img/moson.jpeg" alt="img">
+									</div>
+									<div class="team-block p-3">
+										<div class="team-block-title mb-1">SEMF UCUK</div>
+										<div class="team-block-text">CEO & FOUNDER</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="mb-4 mb-md-0">
+									<div class="team-img">
+										<img src="img/moson.jpeg" alt="img">
+									</div>
+									<div class="team-block p-3">
+										<div class="team-block-title mb-1">DIK ADALIN</div>
+										<div class="team-block-text">ENGINEERING</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="mb-4 mb-md-0">
+									<div class="team-img">
+										<img src="img/moson.jpeg" alt="img">
+									</div>
+									<div class="team-block p-3">
+										<div class="team-block-title mb-1">JENG KOL</div>
+										<div class="team-block-text">DESIGNER</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="">
+									<div class="team-img">
+										<img src="img/moson.jpeg" alt="img">
+									</div>
+									<div class="team-block p-3">
+										<div class="team-block-title mb-1">PET ROMAK</div>
+										<div class="team-block-text">MARKETING</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="team-text mb-4">Become part of our dream team, let’s join us !</div>
+						<div class="d-flex justify-content-center">
+							<a class="team-btn d-flex align-items-center justify-content-center" href="#">WE ARE HIRING</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- WORKS -->
+			<div id="works" class="work">
+				<div class="container pt-5 pb-5">
+					<div class="d-flex justify-content-between">
+						<h2 class="work-title">OUR WORKS</h2>
+						<a class="work-text" href="#">See All Project in dribbble<span class="ml-2">></span></a>
+					</div>
+				</div>
+				<div class="d-flex flex-wrap">
+					<div class="work-img">
+						<img src="img/tank1.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank2.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank3.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank4.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank5.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank6.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank7.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank8.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank9.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank10.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank11.jpeg" alt="img">
+					</div>
+					<div class="work-img">
+						<img src="img/tank12.jpeg" alt="img">
+					</div>
+				</div>
+				<div class="container pt-5 pb-5">
+					<div class=" d-flex justify-content-center">
+						<a class="work-btn d-flex align-items-center justify-content-center" href="#">LOAD MORE</a>
+					</div>
+				</div>
+			</div>
+			<!-- staff -->
+			<div id="people_say" class="staff pt-5 pb-5" style="background-image: url(img/version.png);">
+				<div class="container">
+					<div class="staff-content">
+						<i class="staff-quote fas fa-quote-left mb-5"></i>
+						<div class="staff-text mb-5">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</div>
+						<h2 class="staff-name">JANE GALADRIEL</h2>
+						<div class="staff-name mb-5">CEO TENGKUREP</div>
+						<!-- <div class="d-flex justify-content-center"> -->
+							<div class="owl-carousel owl-theme staff-slider">
+								<div class="slider_item d-flex justify-content-center">
+									<div class="staff-img ml-3">
+										<img src="img/makron.jpeg" alt="img">
+									</div>
+								</div>
+								<div class="slider_item d-flex justify-content-center">
+									<div class="staff-img ml-3">
+										<img src="img/merkel.jpeg" alt="img">
+									</div>
+								</div>
+								<div class="slider_item d-flex justify-content-center">
+									<div class="staff-img ml-3">
+										<img src="img/baiden.jpeg" alt="img">
+									</div>
+								</div>
+								<div class="slider_item d-flex justify-content-center">
+									<div class="staff-img ml-3">
+										<img src="img/zelen.jpeg" alt="img">
+									</div>
+								</div>
+								<div class="slider_item d-flex justify-content-center">
+									<div class="staff-img ml-3">
+										<img src="img/chouzoe.jpeg" alt="img">
+									</div>
+								</div>
 
+								<div class="slider_item d-flex justify-content-center">
+									<div class="staff-img ml-3">
+										<img src="img/baiden.jpeg" alt="img">
+									</div>
+								</div>
+								<div class="slider_item d-flex justify-content-center">
+									<div class="staff-img ml-3">
+										<img src="img/zelen.jpeg" alt="img">
+									</div>
+								</div>
+								<div class="slider_item d-flex justify-content-center">
+									<div class="staff-img ml-3">
+										<img src="img/chouzoe.jpeg" alt="img">
+									</div>
+								</div>
+
+							</div>
+						<!-- </div> -->
+					</div>
+				</div>
+			</div>
+			<!-- request / brand -->
+			<div class="container pt-5 pb-5">
+				<div class="row">
+					<div class="col-md-6">
+						<h2 class="request-title mb-3">GIVE US A GOOD NEWS</h2>
+						<form class="d-flex flex-column" action="#">
+							<input class="request-input mb-3"
+							type="text"
+							name="name"
+							placeholder="Name"
+							required
+							/>
+							<input class="request-input mb-3"
+							type="text"
+							name="email"
+							placeholder="Email"
+							required
+							/>
+							<input class="request-input mb-3"
+							type="text"
+							name="subject"
+							placeholder="Subject"
+							required
+							/>
+							<textarea class="request-textarea mb-3" name="your_massage"  placeholder="Your Massage" required></textarea>
+							<button class="request-btn mb-5 mb-md-0" type="submit">SUBMIT</button>
+						</form>
+					</div>
+					<div class="col-md-6">
+						<h2 class="request-title mb-3">OUR HAPPY CLIENT</h2>
+						<div class="row">
+							<div class="col-6">
+								<div class="request-img mb-5">
+									<img src="img/zara.png" alt="img">
+								</div>
+								<div class="request-img mb-5">
+									<img src="img/barneys.png" alt="img">
+								</div>
+								<div class="request-img mb-5">
+									<img src="img/calvin.png" alt="img">
+								</div>
+								<div class="request-img mb-5">
+									<img src="img/converse.png" alt="img">
+								</div>
+								<div class="request-img mb-5">
+									<img src="img/levis.png" alt="img">
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="request-img mb-5">
+									<img src="img/mango.png" alt="img">
+								</div>
+								<div class="request-img mb-5">
+									<img src="img/gucci.png" alt="img">
+								</div>
+								<div class="request-img mb-5">
+									<img src="img/nike.png" alt="img">
+								</div>
+								<div class="request-img mb-5">
+									<img src="img/puma.png" alt="">
+								</div>
+								<div class="request-img mb-5">
+									<img src="img/billabong.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 	</main>
 	            <footer>
                 <div  class="footer img_cover pt-5 pb-5" style="background-image: url(img/footer.png);">
                     <div class="container">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <div class="footer-logo d-flex align-items-center mb-4">
                                     <img src="img/logo.png" alt="logo">
                                     <div class="footer-logo-text ml-2">tajam</div>
                                 </div>
                                 <div class="footer-text mb-5">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</div>
                                 <div class="d-flex">
-                                    <div class="footer-text text mr-3">HELP</div>
-                                    <div class="footer-text text mr-3">TERMS & CONDITION</div>
-                                    <div class="footer-text text mr-3">PRIVACY</div>
+                                    <a class="footer-text text mr-3" href="#">HELP</a>
+                                    <a class="footer-text text mr-3" href="#">TERMS & CONDITION</a>
+                                    <a class="footer-text text mr-3" href="#">PRIVACY</a>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div id="contact" class="col-md-4 col-12">
                                 <h2 class="footer-title mb-4">OUR STUDIO</h2>
                                 <div class="d-flex mb-3">
                                     <div>
@@ -116,28 +443,38 @@
                                     <a class="footer-text ml-2" href="tel:(+62) 21-2224 3333">(+62) 21-2224 3333</a>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <h2 class="footer-title mb-4">STAY IN TOUCH</h2>
-                                <form class="d-flex" action="#">
+                                <form class="d-flex mb-3" action="#">
                                     <input class="footer-input"
                                     type="text"
                                     name="subscribe_our_newsletter"
                                     placeholder="Subscribe our newsletter"
+                                    required
                                     />
                                     <button class="footer-btn" type="submit">
-                                        <i class="far fa-paper-plane"></i>
+                                        <i class="footer-paper far fa-paper-plane"></i>
                                     </button>
                                 </form>
+                                <div class="footer-media d-flex flex-wrap justify-content-between justify-content-md-start mb-5">
+                                    <a class="footer-soc mr-2 mr-md-2 mb-0 mb-md-2" href="#"><i class="soc d-flex align-items-center justify-content-center fab fa-facebook-f"></i></a>
+                                    <a class="footer-soc mr-2 mr-md-2 mb-0 mb-md-2" href="#"><i class="soc d-flex align-items-center justify-content-center fab fa-twitter"></i></a>
+                                    <a class="footer-soc mr-2 mr-md-2 mb-0 mb-md-2" href="#"><i class="soc d-flex align-items-center justify-content-center fab fa-dribbble"></i></a>
+                                    <a class="footer-soc mr-2 mr-md-2 mb-0 mb-md-2" href="#"><i class="soc d-flex align-items-center justify-content-center fab fa-instagram"></i></a>
+                                    <a class="footer-soc mr-2 mr-md-2 mb-0 mb-md-2" href="#"><i class="soc d-flex align-items-center justify-content-center fab fa-google-plus-g"></i></a>
+                                    <a class="footer-soc mr-2 mr-md-2 mb-0 mb-md-2" href="#"><i class="soc d-flex align-items-center justify-content-center fab fa-youtube"></i></a>
+                                </div>
+                                <div class="footer-text">Copyright © 2015 - Tajem Creative</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </footer>
 	<script src="libs/jquery/jquery.min.js"></script>
-	<script src="libs/bootstrap/js/popper.js"></script>
-	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<!-- <script src="libs/bootstrap/js/popper.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script> -->
 	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
-	<script src ="libs/slider-pro/js/jquery.sliderPro.min.js"></script>
+	<!-- <script src ="libs/slider-pro/js/jquery.sliderPro.min.js"></script> -->
 	<script src="js/jquery.countdown.js"></script>
 	<script src="js/main.js"></script>
 
