@@ -45,7 +45,7 @@ $('.staff-slider').owlCarousel({
     margin: 0,
     nav: true,
     dots: false,
-    // cente:true,
+    center: true,
     mouseDrag: false,
     // items: 1,
     responsive : {
